@@ -1,5 +1,4 @@
-# fuel-kiosk-dc
-## CS 461-463 Senior Capstone at Oregon State University
+# CS 461-463 Senior Capstone at Oregon State University
 
 Fuel kiosk data collection at remote bulk fuel sites throughout Oregon (CS Team)
 

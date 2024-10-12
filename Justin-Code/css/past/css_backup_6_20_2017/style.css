@@ -1,0 +1,433 @@
+/*TOC*/
+/*
+Global
+SECTION 1: Main Body, Global Styles and Site Wrapper
+SECTION 2: Header and Navigation Bar 
+
+INTERNAL
+Page Specific
+SECTION 3A: Login and Registration Page
+SECTION 3B: Available Vehicles Analysis 
+
+Component Specific
+SECTION 4B: 
+
+EXTERNAL
+Page Specific
+SECTION 5A: Authorization Form
+SECTION 5B: Trip Cost Calculator 
+SECTION 5C: Trip Availability Check
+
+Component Specific
+SECTION 6A: 
+
+Appendix
+SECTION A1: CSS defaults  
+SECTION A2: Temporary Code that may be used  
+SECTION A3: Fonts
+SECTION A4: Old Code 
+SECTION A5: Notes
+
+*/
+
+
+/****************************************************
+SECTION 1: Main Body, Global Styles and Site Wrapper
+*****************************************************/
+/* SITE STRUCTURE */
+#content { 
+	
+}
+
+/* SORT */
+#right_nav {
+	background-color: #EEECE8;
+}
+
+#app_title {
+	background-color: #EEECE8;
+	
+}
+
+
+/****************************************************
+SECTION 2: Header and Navigation Bar 
+*****************************************************/
+
+
+/****************************************************
+SECTION 3A: Login and Registration Page
+*****************************************************/
+
+
+/****************************************************
+SECTION 3B: Available Vehicles Analysis 
+*****************************************************/
+/* STRUCTURE */
+#reservation-analysis-header {
+	float: left;
+	width: 100%;
+	overflow: auto;	
+
+}
+
+#reservation-analysis-body {
+	float: left;
+	width: 100%;
+	overflow: auto;	
+	
+}
+
+#reservation-analysis-footer {
+	float: left;
+	width: 100%;
+	overflow: auto;	
+	
+}
+
+/* TABLE DEFAULTS */
+table#reservation-analysis-time-table {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+	border: 1px solid #ccc;
+}
+
+/* Table Full Row (tr) */
+tr.reservation-analysis-row {
+	margin: 0px;
+	padding: 0px;
+	border: 0xp solid white;
+	border-bottom: 1px solid #ccc;
+}
+
+tr.reservation-analysis-header-row  {
+	margin: 0px;
+	padding: 0px;
+	border: 0xp solid white;
+
+}
+
+tr.reservation-analysis-footer-row { 
+	margin: 0px;
+	padding: 0px;
+	border: 0xp solid white;
+	
+}
+
+
+/* Table Header (th) */
+th.reservation-analysis-header {
+	margin: 0px;
+	padding: 0px;
+	border: 0xp solid white;
+	height: 12px; 		
+	border-right: 1px solid #ccc;	
+}
+
+/* Table Hour Block (td) */
+td.reservation-hour-holder {
+	margin: 0px;
+	padding: 0px;
+	border: 0xp solid white;	
+}
+
+/* Period Holders */
+.reservation-cell-holder {
+	margin: 0px;
+	padding: 0px;
+}
+
+.period-holder-taken {
+	float: left; 
+	width: 100%;
+	margin: 0px; 
+	padding: 0px; 		
+	background-color: #ffffff; 
+	background-color: #d85a1a;
+	background-color: #C34700;		
+	background-color: #F1F1F1;		
+	background-color: #FAC49B;		
+	background-color: #6E1B1B;		
+}
+
+.period-holder-free {
+	float: left; 
+	width: 100%;
+	margin: 0px; 
+	padding: 0px; 	
+	background-color: #ffffff; 
+
+}
+
+.period-holder-taken-small {
+
+	margin: 0px; 
+	padding: 0px; 		
+	background-color: #ffffff; 
+	background-color: #d85a1a;
+	background-color: #C34700;		
+	background-color: #F1F1F1;		
+	background-color: #FAC49B;		
+	background-color: #6E1B1B;		
+}
+
+.period-holder-free-small {
+	width: 100%;
+	margin: 0px; 
+	padding: 0px; 	
+	background-color: #ffffff; 
+
+}
+
+/* STYLE */
+.reservation-number-text {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+
+/****************************************************
+SECTION 5A: Authorization Form
+*****************************************************/
+/* FORM STRUCTURE */
+#authorization-form {
+	width: 600px; 
+}
+
+/* Form Header */
+.form-header {
+	float: left;
+	width: 100%;
+}
+
+/* Form Row */
+.form-row-container {
+	float: left; 
+	width: 100%; 
+	min-height: 32px; 
+	overflow: auto; 
+}
+
+.form-label {
+	float: left; 
+	width: 35%; 
+	min-height: 32px; 
+	overflow: auto; 
+}
+
+.form-input {
+	float: left; 
+	width: 65%;  
+	min-height: 32px; 
+	overflow: auto; 
+}
+
+.form-alternate-row-background {
+	background-color: #F1F1F1;
+}
+
+/* Form Text Label */
+.form-label-text {
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	text-align: left;
+	color: #333;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+
+/****************************************************
+SECTION 5B: Trip Cost Calculator 
+*****************************************************/
+/* STRUCTURE */
+#trip-cost-form {
+	float: left;
+	overflow: auto;
+	min-height: 180px;
+	width: 98%;
+	border: 1px solid #cccccc;
+	margin-left: 1%;
+
+}
+
+#trip-cost-output {
+	float: left;
+	overflow: auto;
+	min-height: 100px;
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 36px;
+	border: 1px solid #cccccc;
+}
+
+.trip-cost-form-row {	
+	float: left;
+	min-height: 36px;
+	width: 98%;
+}
+
+.trip-cost-form-row:nth-child(odd)   {
+    background-color: #F1F1F1;
+}
+
+
+.trip-cost-time-error-holder  {
+	min-height: 20px;
+}
+
+.trip-cost-output-table {
+	float: left;
+	overflow: auto;
+	min-height: 100px;
+	width: 40%;
+}
+
+.trip-cost-output-map {
+	float: left;
+	overflow: auto;
+	min-height: 100px;
+	width: 60%;	
+}
+
+/* FORM STYLE */
+/* Structure */
+.trip-cost-label-holder {
+	float: left;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	min-width: 146px;	
+}
+
+.trip-cost-form-calendar-holder {
+	float: left;	
+}
+  
+  
+.trip-cost-form-time-holder {
+	float: left;	
+}
+
+/* Input Boxes */
+.trip-cost-form-input-date-box {
+	width: 86px;
+	margin-top: 4px;
+	margin-right: 6px;
+	height: 22px;	
+}
+
+.trip-cost-form-input-box {
+	z-index: 100;
+	min-width: 200px;
+	margin-top: 4px;
+	height: 22px;
+}
+
+.trip-cost-time-input-box {
+	margin-left: 8px;
+	min-width: 40px;
+	margin-top: 2px;
+	height: 26px;		
+}
+
+/* Style */
+.trip-cost-form-header-text {
+	color: #252525; 
+}
+
+.availability-check-outcome-text {
+	margin: 8px;
+	
+}
+
+
+.trip-cost-form-label {
+	margin: 0px;
+	padding: 0px;
+	font-size: 105%;
+	color: #666;
+	font-weight: bold;
+}
+
+
+/* MAP */
+#trip-cost-map {
+	width: 100%;
+	height: 400px;
+}
+
+
+/****************************************************
+SECTION 5C: Trip Availability Check  
+*****************************************************/
+
+
+
+
+/****************************************************
+SECTION A1: CSS defaults  
+*****************************************************/
+.text-bold {
+	font-weight: bold;
+}	
+
+.left {
+	float: left;
+}
+
+.hide {
+	display: none;
+}
+
+.important {
+	color: #ff0000;
+}
+
+/* ERRORS */
+.error-message {
+	color: #f00;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/****************************************************
+SECTION A2: Temporary Code that may be used  
+*****************************************************/
+
+
+/****************************************************
+SECTION A3: Fonts
+*****************************************************/
+
+
+/****************************************************
+SECTION A4: Old Code 
+*****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

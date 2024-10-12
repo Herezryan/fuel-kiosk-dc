@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'EksjaExtremesThin';
+  src: url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.eot');
+  src: local('Ã¢ËœÂº'), url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.woff') format('woff'), url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.ttf') format('truetype'), 						url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EksjaExtremesRegular';
+  src: url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.eot');
+  src: local('Ã¢ËœÂº'), url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.woff') format('woff'), url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.ttf') format('truetype'), url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gudea", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased !important;
+  background:#fff;
+  color:#373737;
+}
+
+a {
+  color:#c34500;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #9e3800;
+}
+
+p {
+  margin-bottom:1em;
+}
+
+h1 {
+  color:#c34500;
+  line-height:1.2;
+  font-family: "EksjaExtremesThin", "Times New Roman", serif;
+}
+
+h2, h3, h4 {
+  line-height:1.2;
+}
+
+header {
+  background:#f5f2ed;
+  position:relative;
+}
+
+header #site-title {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: #c34500;
+  background: #fff;
+  display: block;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header #site-title h1 {
+  margin:0px;
+  font-size:26px;
+  font-family: 'EksjaExtremesRegular';
+}
+
+header button {
+  height:78px;
+  position:absolute;
+  top:0px;
+  right:0px;
+  border:none;
+  background:none;
+  padding:0px 20px;
+  font-size:12px;
+}
+
+header button:hover, header button:focus {
+  color:#c34500;
+}
+
+header button i {
+  font-size:30px!important;
+}
+
+header .dropdown-menu {
+  right: 0px;
+  left: inherit;
+  top: 100%;
+  border: none;
+  background: rgba(255,255,255,.9);
+  margin: 0px;
+  border-radius: 0px;
+}
+
+header .dropdown-menu a:hover {
+  color:#fff;
+  background:#c34500;
+}
+
+.cover img {
+  width:100%;
+  height:auto;
+}
+
+.content {
+  background:#fff;
+  padding:50px 10px;
+}
+
+footer {
+  border-top: 5px solid #c34500;
+  min-height:200px;
+}
+
+@media (min-width:768px) {
+
+header #site-title {
+  position: absolute;
+  top: 25px;
+  left: 245px;
+  color: #c34500;
+  background:none;
+  padding:0px;
+}
+
+
+}
+
+

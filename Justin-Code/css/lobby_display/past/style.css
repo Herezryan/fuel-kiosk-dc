@@ -1,0 +1,320 @@
+/*TOC 
+SECTION 1: Body Layout
+SECTION 2: Style Main 
+SECTION 3: Index Page
+SECTION 3A: Header
+SECTION 3B: Body
+SECTION 3C: Footer
+SECTION A: CSS Defaults
+SECTION B: Bootstrap Overrides 
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Gudea);
+
+@font-face {
+  font-family: 'EksjaExtremesThin';
+  src: url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.eot');
+  src: local('Ã¢ËœÂº'), url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.woff') format('woff'), url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.ttf') format('truetype'), 						url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EksjaExtremesRegular';
+  src: url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.eot');
+  src: local('Ã¢ËœÂº'), url('https://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.woff') format('woff'), url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.ttf') format('truetype'), url('http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/****************************************************
+SECTION 1: Body Layout
+*****************************************************/
+#main-content {
+
+}
+
+#dispatch {
+
+	min-height: 940px;	
+	max-height: 940px;			
+	background-color: #C34500;	
+	background-color: #FFFFFF;	
+	background-color: #385E86;
+	background-color: #385E86;
+	background-color: #FFFFFF;		
+}
+
+#webcams {
+	background-color: #2A2A2A;	
+	background-color: #4E7300;		
+	min-height: 940px;	
+	max-height: 940px;		
+	background-color: #4E7300;	
+	background-color: #FFFFFF;		
+}
+
+
+#active-user-map {
+	min-height: 940px;	
+	max-height: 940px;			
+	background-color: #C34500;	
+	background-color: #FFFFFF;	
+	background-color: #385E86;
+	background-color: #385E86;
+	background-color: #FFFFFF;	
+	border: 1px solid green;
+
+}
+
+#active-user-info {
+	background-color: #2A2A2A;	
+	background-color: #4E7300;		
+	min-height: 940px;	
+	max-height: 940px;		
+	background-color: #4E7300;	
+	background-color: #FFFFFF;	
+	
+}
+
+
+footer {
+	clear: both;
+	min-height: 250px;	
+	max-height: 250px;
+	background-color: #C34500;
+	background-color: #C44500;
+}
+
+#test { 
+	background-color: #4E7300;	
+	width: 1900px;
+}
+
+/****************************************************
+SECTION 3: Index Page
+*****************************************************/
+/* SECTION 3A: Header */
+
+/* SECTION 3B: Body  */
+
+/* DISPATCH TABLE */
+table{
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 98%;
+}
+
+th, td {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+td {
+	height: 60px;
+	
+}
+
+#dispatch-table {
+	margin-top: 60px;
+	width: 98%;
+}
+
+#dispatch-table-holder {
+	margin-top: -50px;	
+	margin-left: 10px;
+}
+
+table, th, td {
+   border: 1px solid #bfbfbf;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-bottom: 2px;
+   padding-top: 2px;    
+}
+ 
+tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
+
+.dispatch-table-header {
+	padding-top: 26px;
+	margin-left: 10px;	
+}
+
+/* WEBCAMS */
+.webcam-left-column {
+	float: left;
+	width: 36%;
+	margin-left: 9%;
+}
+
+.webcam-right-column {
+	float: left;
+	width: 36%;
+	margin-left: 9%;	
+}
+
+.webcam-holder{
+	float: left;
+	max-width: 44%;
+	min-width: 44%;
+	min-height: 180px;	
+	max-height: 180px;		
+	margin-left: 4%;
+	margin-top: 48px;
+}
+
+/* Webcam Image Style */
+.webcam-image-holder {
+	float: left;
+	width: 100%;
+	width: 100%;
+}
+
+.webcam-individual-style {
+	float: left;
+
+	width: 300px;
+/*	margin-left: 5%; */
+	
+}
+
+/* Webcam Text Style */
+.webcam-text-holder {
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	min-height: 80px;	
+	max-height: 80px;	
+}
+
+.webcam-header-text-position {
+	margin-top: 34px;
+	margin-left: 4px;	
+}
+
+.webcam-header-text-position-two {
+	margin-top: 42px;
+	margin-left: 4px;	
+}
+
+.webcam-header-text {	
+	font-family: "Gudea", sans-serif;
+	font-size: 90%;
+	font-weight: 600;
+	color: #c34500;
+}
+
+.webcam-body-text-position {
+	margin-left: 4px;
+	
+}
+
+.webcam-body-text {
+	font-family: "Gudea", sans-serif;
+	font-size: 85%;
+	color: #333;
+}
+
+
+/* SECTION 3C: Footer */
+
+/* Style and Position for Weather Forecast */
+.weather-forecast {
+	margin-top: 10px;
+}
+
+.col-md-5 {
+
+}
+			
+.col-md-7 {
+
+	
+}
+
+
+
+/****************************************************
+SECTION A: CSS Defaults
+*****************************************************/
+.float-left {
+	float: left;
+}
+
+.hidden-div {
+	display: none;
+}
+
+.hide {
+	display: none;
+}
+
+.ten-percent {
+	width: 10%;
+}
+
+.fifteen-percent {
+	width: 15%;
+}
+
+.twenty-percent {
+	width: 20%;
+}
+
+.twenty-five-percent {
+	width: 25%;	
+}
+  
+.center {
+	text-align: center;
+}
+
+/* Font Related */
+.font-size-110 {
+	font-size: 110%;
+	font-weight: 600;
+}
+
+.font-size-105 {
+	font-size: 105%;
+}
+
+.font-size-95 {
+	font-size: 95%;
+}
+
+.font-size-90 {
+	font-size: 90%;
+}
+
+.font-size-85 {
+	font-size: 85%;
+}
+
+.font-size-80 {
+	font-size: 80%;
+}
+
+.font-size-75 {
+	font-size: 75%;
+}
+
+.font-size-70 {
+	font-size: 70%;
+}
+
+.capitalize {
+    text-transform: capitalize;
+
+}
+
+/****************************************************
+SECTION B: Bootstrap Overrides 
+*****************************************************/
+.col-md-8 {
+	padding-left: 0px;	
+}
+

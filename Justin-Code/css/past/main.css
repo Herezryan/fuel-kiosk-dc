@@ -1,0 +1,130 @@
+/*TOC*/
+/*
+Global
+SECTION 1: Main Body, Global Styles and Site Wrapper
+SECTION 2: Header and Navigation Bar 
+
+Internal Page Specific CSS
+SECTION 3A: Login and Registration Page
+
+
+External Page Specific CSS
+SECTION 4A: Authorization Form
+
+
+Appendix
+SECTION A1: CSS defaults  
+SECTION A2: Temporary Code that may be used  
+SECTION A3: Fonts
+SECTION A4: Old Code 
+
+*/
+
+
+/****************************************************
+SECTION 1: Main Body, Global Styles and Site Wrapper
+*****************************************************/
+/* SITE STRUCTURE */
+
+
+/* SORT */
+#right_nav {
+	background-color: #EEECE8;
+}
+
+#app_title {
+	background-color: #EEECE8;
+	
+}
+
+/****************************************************
+SECTION 4A: Authorization Form
+*****************************************************/
+/* FORM STRUCTURE */
+#authorization-form {
+	width: 600px; 
+}
+
+/* Form Header */
+.form-header {
+	float: left;
+	width: 100%;
+}
+
+/* Form Row */
+.form-row-container {
+	float: left; 
+	width: 100%; 
+	min-height: 32px; 
+	overflow: auto; 
+}
+
+.form-label {
+	float: left; 
+	width: 35%; 
+	min-height: 32px; 
+	overflow: auto; 
+}
+
+.form-input {
+	float: left; 
+	width: 65%;  
+	min-height: 32px; 
+	overflow: auto; 
+}
+
+.form-alternate-row-background {
+	background-color: #F1F1F1;
+}
+
+/* Form Text Label */
+.form-label-text {
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	text-align: left;
+	color: #333;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+
+/****************************************************
+SECTION A1: CSS defaults  
+*****************************************************/
+.text-bold {
+	font-weight: bold;
+}	
+
+.left {
+	float: left;
+}
+
+.hide {
+	display: none;
+}
+
+.important {
+	color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
